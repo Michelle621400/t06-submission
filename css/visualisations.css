@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Responsive container of the svg element */
 .responsive-svg-container {
     width: 100%;
@@ -17,4 +18,25 @@
     /* Dark brown */
 }
 
+=======
+/* Responsive container of the svg element */
+.responsive-svg-container {
+    width: 100%;
+    max-width: 1000px;
+}
+
+@media screen and (max-width: 596px) {
+    .responsive-svg-container {
+        margin-bottom: 20px;
+    }
+}
+
+.axis-label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    fill: #5a3e2b;
+    /* Dark brown */
+}
+
+>>>>>>> 44874222bf7bc652e557a260dd4a33f67631beba
 /* Code based on Dufour and Meeks (2024) */
